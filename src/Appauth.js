@@ -20,7 +20,9 @@ function Appauth() {
           refreshPage();
         }}>refresh
       </button> */}
-      <line1></line1>
+      
+    <title>login App</title>
+    <line1></line1>
     <line2></line2>
     <email>email</email>
     <password>name</password>
