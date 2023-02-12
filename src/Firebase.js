@@ -1,6 +1,7 @@
 import { initializeApp } from "firebase/app";
 import { getAuth, GoogleAuthProvider, signInWithPopup } from "firebase/auth";
 import { getStorage } from "firebase/storage";
+import { Navigate, useNavigate } from "react-router-dom";
 
 
 const firebaseConfig = {
@@ -35,4 +36,5 @@ export const signInWithGoogle = () => {
     .catch((error) => {
       console.log(error);
     });
+  
 };

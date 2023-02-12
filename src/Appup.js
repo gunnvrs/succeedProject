@@ -1,5 +1,8 @@
 import "./App.css";
 import { useState, useEffect } from "react";
+import { signInWithGoogle } from "./Firebase";
+
+
 import {
   ref,
   uploadBytes,
@@ -36,7 +39,8 @@ function Appup() {
   }, []);
 
   return (
-    <div className="Appup">
+    <div className="mainup">
+    <div className="App">
       <input
         type="file"
         onChange={(event) => {
@@ -47,6 +51,15 @@ function Appup() {
       {imageUrls.map((url) => {
         return <img src={url} />;
       })}
+
+    <title>Itzmine App</title>
+
+    <mainname>ItzMine</mainname>
+    <mainfav>Favorite</mainfav>
+    <mainarch>Archive</mainarch>
+    <maincover></maincover>
+    <mainline></mainline>
+    </div>
     </div>
   );
 }

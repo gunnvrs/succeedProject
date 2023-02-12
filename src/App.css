@@ -1,5 +1,11 @@
-.Appup {
-  text-align: center;
+.App {
+  width: 100vw;
+  height: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  overflow: scroll;
+  
 }
 
 .Appup-logo {
@@ -15,6 +21,7 @@
 button {
   cursor: pointer;
 }
+
 .Appup-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -116,8 +123,17 @@ button {
 }
 
 /* ------------------------ login ------------------------------ */
-body {
+
+ .mainlogin {
   position: fixed;
+  width: 1280px;
+  height: 832px;
+  background: #FFFFFF;
+  font-family: '-apple-system';
+}
+
+.mainup {
+  /* position: fixed; */
   width: 1280px;
   height: 832px;
   background: #FFFFFF;
@@ -366,11 +382,29 @@ background: #F5F5F5;
 border-radius: 19px;
 }
 
-img {
-  border-radius: 50%;
+.imgauth img {
+  width: 90px;
+  overflow: hidden;
+    border-radius: 50%;
   position: absolute;
   left: 1300px;
   top: 10px;
+    
+  }
+
+img {
+  width: 300px;
+  margin: 10px;
+  border-radius: 19px;
+  filter: drop-shadow(10px 10px 19px rgba(0, 0, 0, 0.3));
+  
+}
+
+mainup {
+  left: 879px;
+  top: 480px;
+  flex-direction: row ;
+  
 }
 
 

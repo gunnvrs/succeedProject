@@ -4,18 +4,18 @@ import Appauth from "./Appauth";
 import Appup from "./Appup";
 import reportWebVitals from "./reportWebVitals";
 
-ReactDOM.render(
-  <React.StrictMode>
-    <Appauth />
-  </React.StrictMode>,
-  document.getElementById("root")
-);
+// ReactDOM.render(
+//   <React.StrictMode>
+//     <Appauth />
+//   </React.StrictMode>,
+//   document.getElementById("root")
+// );
 
 ReactDOM.render(
   <React.StrictMode>
     <Appup />
   </React.StrictMode>,
-  document.getElementById("app")
+  document.getElementById("root")
 );
 
 // If you want to start measuring performance in your app, pass a function
